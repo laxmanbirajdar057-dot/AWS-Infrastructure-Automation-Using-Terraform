@@ -1,0 +1,50 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+*.tfplan
+.terraform.tfstate.lock.info
+terraform-state-backup.json
+
+# Debug and diagnostic logs
+*.log
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+terraform-state-*.json
+
+# Terraform variables containing sensitive values
+*.tfvars
+*.tfvars.json
+
+# Terraform local directory
+.terraform/
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform plan files
+*.tfplan
+tfplan
+
+# Local backups
+*.tf.bak
+*.tfbackup
+
+# AWS credentials and private keys
+.aws/
+*.pem
+*.key
+
+# Environment files
+.env
+.env.*
+
+# Editor and OS files
+.vscode/
+.DS_Store
